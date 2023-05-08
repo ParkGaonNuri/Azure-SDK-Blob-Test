@@ -1,9 +1,14 @@
 #spring.cloud.azure:
 #  credential:
-#    client-id: 50adb97b-cf22-4ab4-b6a2-e0dd2d64a8f9
-#    client-secret: ESI8Q~e_1S5moNJjzIta7QR7yk6lQllSw2Qr7bBj
+#    client-id: 50adb97
+#    client-secret: ESI8Q
 #  profile:
-#    tenant-id: 4aed9820-113d-4f48-9f53-4d91f37ad279
+#    tenant-id: 4aed98
+#  storage:
+#    blob:
+#      account-name: nuridevlog
+#      container-name: nuri
+#      endpoint: https://nuridevlog.blob.core.windows.net/
 spring.cloud.azure:
   credential:
     managed-identity-enabled: true
